@@ -1,4 +1,4 @@
- $(function() {
+  $(function() {
     var nav = $(".nav");
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
