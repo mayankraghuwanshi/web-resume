@@ -163,6 +163,9 @@
 .p-5{
 padding: 5px;
 }
+.imgt{
+	width: 100%;
+}
 /*for laptop or mobile*/
 @media(max-width: 900px){
 	.tab-panels ul {
