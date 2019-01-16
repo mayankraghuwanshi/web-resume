@@ -7,157 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
-	<style type="text/css">
-		
-		body{
-			padding: 0;
-			margin: 0;
-			font-family: sans-serif;
-			background-color: black;
-			color: white;
-
-		}
-		
-		header{
-			height: 100vh;
-		}
-         .nav{
-         	width: 100%;
-         	height: 60px;
-         	position: fixed; 
-         	margin-bottom: 20px;
-         	transition: all 1s;
-         	line-height: 60px;
-         	font-family: 'Kanit', sans-serif;
-         }
-
-         .border-black{
-         	transition: 1s;
-         	box-shadow: 0px 0px 1px 0px snow;
-         	height: 50px;
-         	line-height: 50px;
-         	background-color: black;
-
-         }
-
-         .nav ul{
-         	margin: 0;
-         	padding: 0;
-         	text-align: center;
-         	cursor: pointer;
-
-         }
-
-         .nav ul li{
-         	text-transform: uppercase;
-         	list-style: none;
-         	display: inline-block;
-         	margin: 0 10px 0 10px;
-         }
-         .nav ul li a{
-         	text-decoration: none;
-         }
-         .nav ul li a:hover{
-         	color: yellow;
-         	border-bottom: 1px yellow;
-         }
-         .profile{
-		   width: 150px;
-		   border-radius:  50%;
-		}
-		
-		.box{
-
-				
-				text-align: center;	
-				margin: 20vh auto;						
-		}
-		.box h1{
-			font-size: 40px;
-			font-family: 'Major Mono Display', monospace;
-
-		}
-		.sec{
-			padding: 30px 25% 20px 25%;
-			background-color: #3d3939d4;
-			font-family: 'Thasadith', sans-serif;
-		}
-		.heading{
-			font-size: 30px;
-			text-transform: uppercase;
-		}
-		.content{
-		     font-family: 'Thasadith', sans-serif;
-		     font-size: 20px;
-		}
-		.logo{
-			width: 40px;
-			margin: 0 20px 20px 0;
-			transition: .1s;
-		}
-		.logo:hover{
-			transform: scale(2 , 2);
-			transform: 1s;
-		}
-		.downbtn{
-			bottom: 5%;
-			width: 100px;
-			margin: auto;
-		}
-		.downbtn img{
-			width: 100px;
-		}
-		.project-bar{
-			background-color: black;
-		}
-		
-.tab-panels{
-	width: 100%;
-	background-image: linear-gradient(to right, white, yellow);
-	
-}
-.tab-panels ul {
-    margin: 0;
-    padding: 0 100px 0 100px;
-}
-.tab-panels ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    line-height: 40px;
-    padding: 3px 10px;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-
-}
-.tab-panels ul li:hover {
-    color: #fff;
-    background: #666;
-}
-
-.tab-panels ul li.active {
-    color: white;
-    background: black;
-}
-
-.tab-panels .panel {
-    display:none;
-    background: black;
-    padding: 30px;
-    color: white;
-}
-
-.tab-panels .panel.active {
-    display:block;
-
-}
-		
-
-         
-	</style>
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-		
+	<link rel="stylesheet" type="text/css" href="style.css">	
 </head>
 <body>
 	<header>
@@ -212,11 +63,11 @@
                 <li rel="screenchop_box">Screen shots</li>
             </ul>
 
-            <div id="about_box" class="panel active">
+            <div id="about_box" class="panel active container">
                <p>This project is a web application where developers can come together. This web app can be user to communicate developers and see there profile there work experience.<br>
 				You can add Post and people can response to your Post by commenting on or liking it.</p>
             </div>
-            <div id="features_box" class="panel">
+            <div id="features_box" class="panel container">
                 <ol><li>Register new user</li>
             	<li>Log in existing user</li>
             	<li>Create/Edit Profile</li>
@@ -226,10 +77,10 @@
             	<li>Delete Account</li>
             </ol>
             </div>
-            <div id="technology_box" class="panel">
+            <div id="technology_box" class="panel container">
               
             </div>
-            <div id="screenchop_box" class="panel">
+            <div id="screenchop_box" class="panel container">
                
             </div></div></div>
             <h2>Blog Post</h2>
@@ -242,11 +93,11 @@
                 <li rel="screenchop_box_1">Screen shots</li>
             </ul>
 
-            <div id="about_box_1" class="panel active">
+            <div id="about_box_1" class="panel active container">
                <p>This project is a web application where developers can come together. This web app can be user to communicate developers and see there profile there work experience.<br>
 				You can add Post and people can response to your Post by commenting on or liking it.</p>
             </div>
-            <div id="features_box_1" class="panel">
+            <div id="features_box_1" class="panel container">
                 <ol><li>Register new user</li>
             	<li>Log in existing user</li>
             	<li>Create/Edit Profile</li>
@@ -256,60 +107,15 @@
             	<li>Delete Account</li>
             </ol>
             </div>
-            <div id="technology_box_1" class="panel">
+            <div id="technology_box_1" class="panel container">
               
             </div>
-            <div id="screenchop_box_1" class="panel">
+            <div id="screenchop_box_1" class="panel container">
                
             </div></div></div>
 
 </section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-       $(function() {
-    var nav = $(".nav");
-    $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-    
-        if (scroll >= 100) {
-           nav.addClass("border-black");
-        } else {
-            nav.removeClass("border-black")
-        }
-    });
-  
- $(function() {
-
-    $('.tab-panels .tabs li').on('click', function() {
-
-        var $panel = $(this).closest('.tab-panels');
-
-        $panel.find('.tabs li.active').removeClass('active');
-        $(this).addClass('active');
-
-        //figure out which panel to show
-        var panelToShow = $(this).attr('rel');
-
-        //hide current panel
-        $panel.find('.panel.active').slideUp(300, showNextPanel);
-
-        //show next panel
-        function showNextPanel() {
-            $(this).removeClass('active');
-
-            $('#'+panelToShow).slideDown(300, function() {
-                $(this).addClass('active');
-            });
-        }
-    });
-
-
-});
-
-
-
-});
-
-        </script>
+	<script src = "script.js"></script>
 </body>
 </html>
