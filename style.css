@@ -11,6 +11,7 @@
 		
 		header{
 			height: 100vh;
+			position: relative;
 		}
 		
          .nav{
@@ -92,14 +93,14 @@
 			transform: scale(2 , 2);
 			transform: 1s;
 		}
-		.downbtn{
-			bottom: 5%;
+		.bottom-img{
+			
 			width: 100px;
-			margin: auto;
+		    margin: auto;
+		    bottom: 1%;
+		    display: block;
 		}
-		.downbtn img{
-			width: 100px;
-		}
+		
 		.project-bar{
 			background-color: black;
 		}
