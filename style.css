@@ -93,11 +93,12 @@
 			transform: scale(2 , 2);
 			transform: 1s;
 		}
+
 		.bottom-img{
 			
 			width: 100px;
 		    margin: auto;
-		    bottom: 1%;
+		    margin-top: 10vh;
 		    display: block;
 		}
 		
