@@ -23,17 +23,19 @@
          	height: 60px;
          	position: fixed; 
          	margin-bottom: 20px;
-         	transition: all 1s;
          	line-height: 60px;
          	font-family: 'Kanit', sans-serif;
+         	display: none;
+         	transition: all 5s;
          }
 
          .border-black{
-         	transition: 1s;
+         	transition: all 5s;
          	box-shadow: 0px 0px 1px 0px snow;
          	height: 50px;
          	line-height: 50px;
          	background-color: black;
+         	display: block;
 
          }
 
